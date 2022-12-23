@@ -1,0 +1,58 @@
+{
+    "name": "Gebank",
+    "version": "1.0.0",
+    "description": "",
+    "main": "gulpfile.js",
+    "authors": [
+      "Mateus Fuzer"
+    ],
+    "dependencies": {
+      "angular": "1.8.2",
+      "jquery": "3.6.1",
+      "bootstrap": "5.1.3",
+      "font-awesome": "6.2.1",
+      "leaflet": "*",
+      "izimodal":"*",
+      "angular-ui-router": "1.0.21"
+    },
+    "license": "ISC",
+    "homepage": "https://github.com/MateusFuzer/Loja-Roupa",
+    "ignore": [
+      "**/.*",
+      "node_modules",
+      "bower_components",
+      "test",
+      "tests"
+    ],
+    "overrides": {
+      "bootstrap": {
+          "main": [
+              "dist/js/bootstrap.js",
+              "dist/css/bootstrap.css",
+              "dist/fonts/*.*",
+              "dist/css/bootstrap.css",
+              "less/bootstrap.less",
+              "scss/**/*.scss"
+          ]
+      },
+      "font-awesome":{
+        "main":[
+          "js/all.js",
+          "js/fontawesome.js",
+          "js/brands.js",
+          "js/regular.js",
+          "js/solid.js",
+          "js/v4-shims.js",
+          "css/fontawesome.css",
+          "**/*.otf",
+          "**/*.eot",
+          "**/*.svg",
+          "**/*.ttf",
+          "**/*.woff",
+          "**/*.woff2"
+  
+        ]
+      }
+    }
+  }
+  
